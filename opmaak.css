@@ -1,0 +1,109 @@
+body 
+{    /* voor de achtergrond enzo.. */
+background-image: url(http://www.mupload.nl/img/zydk0bbzv.pn); 
+background-repeat: no-repeat; 
+background-position: top; 
+background-attachment:scroll; 
+background-color: #B0B0B0;
+}
+
+.STY1 	
+{				/* voor de bovenste kop */
+font-family:arial; 
+font-size:25px; 
+color:#000000; 
+font-style: normal; 
+font-weight:bold;
+text-align:center;
+}  
+
+.STY2 
+{				/* voor de bovenste kop van het menu */
+font-family:arial; 
+font-size:16px; 
+color:#000000; 
+font-style: normal; 
+font-weight:bold;
+}   
+  	
+.STY3
+{				/* voor de gewone menu items */
+font-family:arial; 
+font-size:15px; 
+color:#000000; 
+font-style: normal; 
+font-weight:normal;
+}
+
+.STY4
+{				/* voor de disclamer */
+font-family:arial; 
+font-size:10px; 
+color:#FFFFFF; 
+font-style: normal; 
+font-weight:lighter;
+text-align:center;
+}	
+
+.STY5
+{				/* voor alle gewone text */
+font-family:arial; 
+font-size:15px; 
+color:#000000; 
+font-style: normal; 
+font-weight:normal;
+}
+
+.STY6
+{				/* voor dik gedrukte gewone text */
+font-family:arial; 
+font-size:15px; 
+color:#000000; 
+font-style:normal; 
+font-weight:bold;
+}
+
+
+#BovenText 	
+{
+	width:98%;/**/
+	height:100px;/**/
+	background-color:#005599;
+	padding:6px;    /**/
+	margin-top: 3px;/**/  
+    margin-right: 1%; /**/ 
+    margin-bottom: 1%;  /**/
+}
+
+#LinksMenu	
+{
+	width:18%;/**/
+	height:1200px;/**/
+	background-color:#6699CC;/**/
+	float:left;
+	padding:6px;
+    margin-right: 1%;  /**/
+    margin-bottom: 1%; /**/
+}
+
+#TextHome 	
+{
+	width:78%;/**/
+	height:1200px;/**/
+	background-color:#06ae2a;/**/
+	float:left;
+	padding:6px;
+    margin-right: 1%;  /**/
+    margin-bottom: 1%; 
+}
+
+#OnderText 	
+{
+	width:98%;
+	height:60px;
+	background-color:#336633;
+	clear:both;
+	padding:6px;  
+    margin-right: 1%;  
+    margin-bottom: 1%;
+}
