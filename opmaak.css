@@ -6,14 +6,6 @@ background-repeat: repeat;
 background-color: #0099BB;
 background-attachment:fixed;
 }
-
-
-A:link {text-decoration: none}
-A:visited {text-decoration: none}
-A:active {text-decoration: none}
-A:hover {text-decoration: underline}
-
-
 .STY1 	
 {				/* voor de bovenste kop */
 font-family:arial; 
@@ -21,9 +13,8 @@ font-size:25px;
 color:#FFFFFF; 
 font-style: normal; 
 font-weight:bold;
-text-align:center;
+text-align:left;
 }  
-
 .STY2 
 {				/* voor de bovenste kop van het menu */
 font-family:arial; 
@@ -31,17 +22,23 @@ font-size:16px;
 color:#FFFFFF; 
 font-style: normal; 
 font-weight:bold;
-}   
-  	
+}    	
 .STY3
 {				/* voor de gewone menu items */
-font-family:arial;
+color:#000000; 
 font-family:arial; 
 font-size:15px; 
-color:#000000; 
 line-height: 125%;
+text-decoration: none;
 }
-
+.STY3:hover
+{				/* voor de gewone menu items */
+color:#0000A0; 
+font-family:arial; 
+font-size:15px; 
+line-height: 125%;
+text-decoration: underline;
+}
 .STY4
 {				/* voor de disclamer */
 font-family:arial; 
@@ -51,7 +48,6 @@ font-style: normal;
 font-weight:lighter;
 text-align:center;
 }	
-
 .STY5
 {				/* voor alle gewone text */
 font-family:arial; 
@@ -60,7 +56,6 @@ color:#000000;
 font-style: normal; 
 font-weight:normal;
 }
-
 .STY6
 {				/* voor dik gedrukte gewone text */
 font-family:arial; 
@@ -69,30 +64,27 @@ color:#000000;
 font-style:normal; 
 font-weight:bold;
 }
-
 #BovenText 	
 {
-	width:1188;
+	width: 975px;
+	min-width: 975px;
+	max-width: 975px;
 	height:60px;
 	background-color:#000000;
 	clear: both;
-	padding: 3px;  
+	padding: 6px;  
 	margin-top: 6px;
     margin-right: 6px;  
     margin-bottom: 6px;
 	box-shadow: 0 8px 6px -6px black;
-	border: 1px;
-	border-style: solid;
-	border-color: #000000;
 	margin-left: 6px;
 }
-
 #Body	
 {
-	width:100%;
+	width:1000px;
 	min-width:1000px;
 	max-width:1000px;
-	height: 100%;
+	height: auto;
 	margin-right: auto;
 	margin-left: auto;
 	border: 1px;
@@ -101,18 +93,16 @@ font-weight:bold;
 	border-color: #000000;
 	background-color: #004C5E;
 }
-
 #HeleMenu	
 {
 	border: 1px;
-	width:204px;
+	width:203px;
 	height:1194px;
 	float:left;    
 		margin-right: 6px;
 		margin-bottom: 6px;  
 		margin-left: 6px;
 }
-
 #Menu	
 {
 	box-shadow: 0 8px 6px -6px black;
@@ -121,7 +111,6 @@ font-weight:bold;
 	border-style: solid;
 	border-color: #000000;
 }
-
 #Menu1
 {
 	padding: 6px;
@@ -130,13 +119,11 @@ font-weight:bold;
 	border-style: solid;
 	border-color: #000000;
 }
-
 #Menu2
 {
 	padding: 6px;
 	background-color:#FFFFFF;
 }
-
 #Home 	
 {
 	width:764px;
@@ -155,7 +142,6 @@ font-weight:bold;
 
 
 }
-
 #MenuHome
 {
 	padding: 6px;
@@ -167,10 +153,11 @@ font-weight:bold;
 	margin-left: -6px;
 	margin-top: -6px;
 }
-
 #Disclamer	
 {
-	width:width:1188;
+	width: 974px;
+	min-width: 974px;
+	max-width: 974px;
 	height:60px;
 	background-color:#FFFFFF;
 	clear:both;
