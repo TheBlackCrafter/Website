@@ -1,32 +1,43 @@
 body 
 {    /* voor de achtergrond enzo.. */
-/* background-image: url(http://www.mupload.nl/img/zydk0bbzv.png);  */
 background-image: url(pictures/background.png);
 background-repeat: repeat; 
 background-color: #0099BB;
 background-attachment:fixed;
 }
-.STY1 	
-{				/* voor de bovenste kop */
-font-family:arial; 
-font-size:25px; 
-color:#FFFFFF; 
-font-style: normal; 
-font-weight:bold;
-text-align:left;
-}  
+.LeftTop
+{
+vertical-align: top
+}
+
+img.middle
+{
+vertical-align:-15px;
+}
+.STY1 
+{
+  margin: 6px;
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 55px;
+  text-align: left;
+  text-decoration: none;
+} 
 .STY2 
-{				/* voor de bovenste kop van het menu */
-font-family:arial; 
+{				/* voor de bovenste kop van een menu */
+  font-family: sans-serif;
 font-size:16px; 
 color:#FFFFFF; 
 font-style: normal; 
 font-weight:bold;
-}    	
+text-align: left;
+}    
 .STY3
 {				/* voor de gewone menu items */
 color:#000000; 
-font-family:arial; 
+font-family: sans-serif; 
 font-size:15px; 
 line-height: 125%;
 text-decoration: none;
@@ -34,23 +45,28 @@ text-decoration: none;
 .STY3:hover
 {				/* voor de gewone menu items */
 color:#0000A0; 
-font-family:arial; 
+font-family: sans-serif; 
 font-size:15px; 
 line-height: 125%;
 text-decoration: underline;
 }
 .STY4
 {				/* voor de disclamer */
-font-family:arial; 
-font-size:10px; 
-color:#000000; 
+color:#000000;
+font-family: sans-serif; 
+font-size:10px;  
 font-style: normal; 
 font-weight:lighter;
-text-align:center;
+text-decoration: none;
 }	
+.STY41
+{				/* voor de disclamer centering*/
+text-align:center;
+line-height: 5%;
+}
 .STY5
 {				/* voor alle gewone text */
-font-family:arial; 
+font-family: sans-serif; 
 font-size:15px; 
 color:#000000; 
 font-style: normal; 
@@ -58,7 +74,7 @@ font-weight:normal;
 }
 .STY6
 {				/* voor dik gedrukte gewone text */
-font-family:arial; 
+font-family: sans-serif; 
 font-size:15px; 
 color:#000000; 
 font-style:normal; 
@@ -71,13 +87,13 @@ font-weight:bold;
 	max-width: 975px;
 	height:60px;
 	background-color:#000000;
-	clear: both;
-	padding: 6px;  
+	clear: both;  
 	margin-top: 6px;
     margin-right: 6px;  
     margin-bottom: 6px;
 	box-shadow: 0 8px 6px -6px black;
 	margin-left: 6px;
+	padding: 6px;
 }
 #Body	
 {
@@ -102,6 +118,7 @@ font-weight:bold;
 		margin-right: 6px;
 		margin-bottom: 6px;  
 		margin-left: 6px;
+		clear: both;
 }
 #Menu	
 {
@@ -139,7 +156,7 @@ font-weight:bold;
 	border: 1px;
 	border-style: solid;
 	border-color: #000000;
-
+	clear: right;
 
 }
 #MenuHome
