@@ -4,6 +4,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <link href="../opmaak.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="../lightbox.css" type="text/css" />
 <title>McTut</title>
 </head>
 <body>
@@ -11,14 +12,41 @@
 <div id="BovenText" onclick="location.href='../index.htm';"><img class="middle" src="../pictures/blokje_stil_zwart.jpg" onmouseover="this.src = '../pictures/blokje_zwart.gif';" onmouseout="this.src = '../pictures/blokje_stil_zwart.jpg';" height="60px" width="105x" alt="** PLEASE DESCRIBE THIS IMAGE **" /><a class="STY1" href="../index.htm">McTut</a></div>
 <div id="HeleMenu"><iframe src="../LinksMenu.htm" height="1194px" width="203px" marginwidth="0px" marginheight="0px" frameborder="0"></iframe></div>
 <div id="Home">
-<div id="MenuHome" class="STY2">Eerste Bestandje</div>
+<div id="MenuHome" class="STY2">Core!</div>
 <p class="STY5">
 
-
-
-
-
-
+Haloo allemaal,<br />
+Nu ga ik jullie laten zien hoe je de core( het kloppende hart) van je mod moet maken.<br />
+<br />
+PAS OP: alles in java is hoofdlettergevoelig!!<br />
+<br />
+Ga in de filemanager naar het mapje common. <br />
+Daar klik je rechtermuisknop op, en ga je naar New, Package. <br />
+Dat zie er <a href="../pictures/Les2.2_1.JPG" rel="lightbox[Les2.2]" title="New Package">zo</a> uit.<br />
+Dan krijg je een schermpje waar je een naam voor dat pakcage moet invoeren. <br />
+Ik noem die nu gewoon MOD.  <br />
+Het is het makkelijkst als je de zelfde namen als ik gebruik. <br />
+Dan ga je naar klik je rechtermuisknop op het package “MOD” die we net hebben gemaakt. <br />
+Daar kies je "New" en dan "Class".  <br />
+Ik noem die Mod_Main omdat dat de belangrijkste modfile wordt. <br />
+Dat schermpje ziet er dan <a href="../pictures/Les2.2_2.JPG" rel="lightbox[Les2.2]" title="Mod_Main maken">zo</a> uit. <br />
+Dan maken we nog een class file in de MOD package met als naam “CommonProxy”. <br />
+Dan ziet je file manager als het goed is <a href="../pictures/Les2.2_3.JPG" rel="lightbox[Les2.2]" title="File Manager 1">zo</a> uit. <br />
+Dan maak in het mapje “src ” een nieuw package genaamd “MOD”, en daarin een class bestand met als naam “ClientProxy”.<br />   
+Dan zie je als het goed is dit<a href="../pictures/Les2.2_4.JPG" rel="lightbox[Les2.2]" title="File Manager 2">zo</a>.<br />
+Nu gaan we echt programmeren.<br />
+Je klikt dubbel op Mod_Main.java om die te openen, en in je workspace delete je alle tekst, en plak je deze tekst daarvoor in de plaats:<br />
+<a href="http://pastebin.com/ztMd4jMF" target="_blank">Pastebin Link</a><br />
+Dan plak je deze tekst in het bestandje CommonProxy:<br />
+<a href="http://pastebin.com/nic9F9Mv" target="blank">Pastebin Link</a><br />
+En deze tekst in ClientProxy:<br />
+<a href="http://pastebin.com/eshQgwuu" target="blank">Pastebin Link</a><br />
+Dan even wat uitleg. In het bestandje Mod_Main.java staat nu bovenaan “package MOD;” dat betekent dat het bestandje Mod_Main.java in het package MOD  staat. <br />
+Dan daaronder staan 7 regeltjes die beginnen met “import”. Die ga ik nu niet uitleggen.  <br />
+Daaronder staat  “@Mod(modid = "[naam maker]_[naam mod]", name = "[naam mod]", version = "[versie]")”.   <br />
+Bij [naam maker] moet je je eigen naam neerzetten, <br />
+Bij [naam mod] moet je de naam van je mod neerzetten en bij [versie] moet je de versie van je mod neerzetten.  <br />
+Alles wat daaronder staat zal ik een andere keer uitleggen.<br />
 
 
 
@@ -39,5 +67,7 @@
 <p class="STY41"><a href="../Disclamer.htm" class="STY4">Disclaimer</a> | <a href="../Disclamer.htm" class="STY4">sitemap</a> | <a href="../Disclamer.htm" class="STY4">copyright</a></p>
 <br /></div>
 </div>
+<script src="../js/jquery-1.7.2.min.js"></script>
+<script src="../js/lightbox_MapUp.js"></script>
 </body>
 </html>
