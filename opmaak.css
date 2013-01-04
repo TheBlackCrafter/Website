@@ -80,6 +80,23 @@ color:#000000;
 font-style:normal; 
 font-weight:bold;
 }
+.STY7
+{				/* voor de sitemap dinges dingen */
+color:#000000; 
+font-family: sans-serif; 
+font-size:15px; 
+line-height: 125%;
+text-decoration: none;
+list-style-image: url(pictures/arrow.gif);
+}
+.STY7:hover
+{				/* voor de sitemap dinges dingen en dan is dit weer de hover dinges */
+color:#0000A0; 
+font-family: sans-serif; 
+font-size:15px; 
+line-height: 125%;
+text-decoration: underline;
+}
 .iframe
 {
 background-color:transparent;
