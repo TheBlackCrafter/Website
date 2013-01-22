@@ -9,7 +9,6 @@ background-attachment:fixed;
 {
 vertical-align: top
 }
-
 img.middle
 {
 vertical-align:-15px;
@@ -100,6 +99,26 @@ text-decoration: underline;
 .iframe
 {
 background-color:transparent;
+}
+table.Help		/*voor de help tabel */
+{
+background-color: #EEEEEE;
+border-color: gray;
+border-width: 1px;
+border-style: solid;
+font-family: sans-serif; 
+font-size:15px; 
+color:#000000; 
+font-style: normal; 
+font-weight:normal;
+}
+table.Help tr		/*voor de help tabel */
+{
+padding: 4px;
+}
+table.Help td		/*voor de help tabel */
+{
+padding: 4px;
 }
 #BovenText 	
 {

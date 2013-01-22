@@ -3,109 +3,117 @@
 <!-- saved from url=(0020)http://www.phdcc.com -->
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="icon" href="favicon.ico" />
 <link href="opmaak.css" rel="stylesheet" type="text/css" />
 <title>McTut</title>
-
-<style type="text/css">
-</style>
 </head>
 <body>
+<script type="text/javascript" src="js/contoroleer.js"></script>
 <div id="Body">
-<div id="BovenText" onclick="location.href='index.htm';"><img class="middle" src="pictures/blokje_stil_zwart.jpg" onmouseover="this.src = 'pictures/blokje_zwart.gif';" onmouseout="this.src = 'pictures/blokje_stil_zwart.jpg';" height="60px" width="105x" alt="** PLEASE DESCRIBE THIS IMAGE **" /><a class="STY1" href="index.htm">McTut</a></div>
+<div id="BovenText" onclick="location.href='index.htm';"><img alt="Smiley face" class="middle" src="pictures/blokje_stil_zwart.jpg" onmouseover="this.src = 'pictures/blokje_zwart.gif';" onmouseout="this.src = 'pictures/blokje_stil_zwart.jpg';" height="60px" width="105px"/> <a class="STY1" href="index.htm">McTut</a></div>
 <div id="HeleMenu"><iframe src="LinksMenu.htm" height="1194px" width="203px" marginwidth="0px" marginheight="0px" frameborder="0"></iframe></div>
 <div id="Home">
 <div id="MenuHome" class="STY2">Help!</div>
-<p class="STY5">Blijkbaar heb je wat vragen.<br />
+<p class="STY5">
+Blijkbaar heb je wat vragen.<br />
 Vul hieronder het formulier in, en ik zal zo snel mogelijk een mailtje terug sturen!<br />
 Je kan ook een bestandje toevoegen met bijvoorbeeld een crash-log of een java code die niet werkt.<br />
 <br />
 Maar voordat je dat doet, moet je natuurlijk eerst even kijken of iemand anders dat probleem ook heeft.<br />
 Dus even Googelen!
-<form name="form1" action="" method="post">
-<table border="1" rules="groups" bgcolor="#EEEEEE" bordercolor="gray" cellpadding="5">
-<tr>
-<td class="LeftTop">Voornaam:</td>
-<td><input type="text" name="voornaam" maxlength="10" /></td>
-</tr>
-<tr>
-<td class="LeftTop">Geslacht:</td>
-<td><input type="radio" name="geslacht" value="M" checked="checked" /> Jongen <input type="radio" name="geslacht" value="V" /> Meisje</td>
-</tr>
-<tr>
-<td class="LeftTop">Leeftijd:</td>
-<td><select name="leeftijd">
-<option value="---" selected="selected">------</option>
-<option value="1">1 jaar</option>
-<option value="2">2 jaar</option>
-<option value="3">3 jaar</option>
-<option value="4">4 jaar</option>
-<option value="5">5 jaar</option>
-<option value="6">6 jaar</option>
-<option value="7">7 jaar</option>
-<option value="8">8 jaar</option>
-<option value="9">9 jaar</option>
-<option value="10">10 jaar</option>
-<option value="11">11 jaar</option>
-<option value="12">12 jaar</option>
-<option value="13">13 jaar</option>
-<option value="14">14 jaar</option>
-<option value="15">15 jaar</option>
-<option value="16">16 jaar</option>
-<option value="17">17 jaar</option>
-<option value="18">18 jaar</option>
-<option value="19">19 jaar</option>
-<option value="20">20 jaar</option>
-<option value="21">21 jaar</option>
-<option value="22">22 jaar</option>
-<option value="23">23 jaar</option>
-<option value="24">24 jaar</option>
-<option value="25">25 jaar</option>
-<option value="26">26 jaar</option>
-<option value="27">27 jaar</option>
-<option value="28">28 jaar</option>
-<option value="29">29 jaar</option>
-<option value="30">30 jaar</option>
-<option value="1">31 jaar</option>
-<option value="2">32 jaar</option>
-<option value="3">33 jaar</option>
-<option value="4">34 jaar</option>
-<option value="5">35 jaar</option>
-<option value="6">36 jaar</option>
-<option value="7">37 jaar</option>
-<option value="8">38 jaar</option>
-<option value="9">39 jaar</option>
-<option value="10">40 jaar</option>
-<option value="40+">Ouder dan 40</option>
-</select></td>
-</tr>
-<tr>
-<td class="LeftTop">Emailadres:</td>
-<td><input type="email" name="emailadres" class="Help" /></td>
-</tr>
-<tr>
-<td class="LeftTop">Vraag:</td>
-<td>
-<textarea name="vraag" rows="10" cols="50">
-</textarea></td>
-</tr>
-<tr>
-<td>Bestand</td>
-<td><input type="file" name="bestand" /></td>
-</tr>
-<tr>
-<td></td>
-<td><input type="reset" value="Maak het formulier leeg" /></td>
-</tr>
+</p>
+<form name="help" action="submit" method="post">
+<table rules="groups" class="Help">
+	<tr>
+		<td class="LeftTop">Voornaam:</td>
+		<td><input type="text" name="naam" maxlength="10"/></td>
+	</tr>
+	<tr>
+		<td class="LeftTop">Geslacht:</td>
+		<td><input type="radio" name="geslacht" value="M" checked="checked" /> Jongen <input type="radio" name="geslacht" value="V" /> Meisje</td>
+	</tr>
+	<tr>
+		<td class="LeftTop">Leeftijd:</td>
+		<td><select name="leeftijd">
+	<option value="----" selected="selected">----</option>
+	<option value="1">1 jaar</option>
+	<option value="2">2 jaar</option>
+	<option value="3">3 jaar</option>
+	<option value="4">4 jaar</option>
+	<option value="5">5 jaar</option>
+	<option value="6">6 jaar</option>
+	<option value="7">7 jaar</option>
+	<option value="8">8 jaar</option>
+	<option value="9">9 jaar</option>
+	<option value="10">10 jaar</option>
+	<option value="11">11 jaar</option>
+	<option value="12">12 jaar</option>
+	<option value="13">13 jaar</option>
+	<option value="14">14 jaar</option>
+	<option value="15">15 jaar</option>
+	<option value="16">16 jaar</option>
+	<option value="17">17 jaar</option>
+	<option value="18">18 jaar</option>
+	<option value="19">19 jaar</option>
+	<option value="20">20 jaar</option>
+	<option value="21">21 jaar</option>
+	<option value="22">22 jaar</option>
+	<option value="23">23 jaar</option>
+	<option value="24">24 jaar</option>
+	<option value="25">25 jaar</option>
+	<option value="26">26 jaar</option>
+	<option value="27">27 jaar</option>
+	<option value="28">28 jaar</option>
+	<option value="29">29 jaar</option>
+	<option value="30">30 jaar</option>
+	<option value="1">31 jaar</option>
+	<option value="2">32 jaar</option>
+	<option value="3">33 jaar</option>
+	<option value="4">34 jaar</option>
+	<option value="5">35 jaar</option>
+	<option value="6">36 jaar</option>
+	<option value="7">37 jaar</option>
+	<option value="8">38 jaar</option>
+	<option value="9">39 jaar</option>
+	<option value="10">40 jaar</option>
+	<option value="40+">Ouder dan 40</option>
+	</select></td>
+	</tr>
+	<tr>
+		<td class="LeftTop">Emailadres:</td>
+		<td><input type="text" name="email" class="Help" /></td>
+	</tr>
+	<tr>
+		<td class="LeftTop">deze vraag gaat over:</td>
+		<td><input type="checkbox" name="modding" value="modding" /> Modding<br /><input type="checkbox" name="building" value="building" /> Building<br /></td>
+	</tr>
+	<tr>
+		<td class="LeftTop">Vraag:</td>
+		<td>
+	<textarea name="bericht" rows="10" cols="50">Zet hier je vraag neer.</textarea>
+	</td>
+	</tr>
+	<tr>
+		<td>Bestand</td>
+		<td><input type="file" name="bestand" /></td>
+	</tr>
+	<tr>
+		<td></td>
+		<td><input type="reset" value="Maak het formulier leeg" /></td>
+	</tr>
 </table>
+<input type="submit" value="Verzend" name="versturen" onclick="controleer(this.form)" />
 </form>
-<form method="link" action="Help_Done.htm"><input type="submit" value="Verzend de vraag" /></form>
 <br />
 <br />
+<p class="STY5">
 Je kan me ook mailen, druk dan op deze knop!<br />
-<a href="mailto:TheBlackCrafter12@gmail.com;?subject=Vraag..&body=Beste BlackCrafter, Mijn vraag is ...">
-<img src="pictures/Mail.gif" alt="MailTo" border="0">
+<a href="mailto:Info@McTut.TK; ?subject=Vraag">
+<img src="pictures/Mail.gif" alt="MailTo" border="0" />
 </a>
 </p>
+<br />
 </div>
 <div id="Disclamer">
 <div id="DisclamerMenu"><a class="STY2">Disclamer</a></div>
