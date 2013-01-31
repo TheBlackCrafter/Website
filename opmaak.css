@@ -14,7 +14,7 @@ img.middle
 vertical-align:-15px;
 }
 .STY1 
-{
+{				/*voor bovenste grote kop*/
   margin: 6px;
   color: #fff;
   font-family: sans-serif;
@@ -86,7 +86,6 @@ font-family: sans-serif;
 font-size:15px; 
 line-height: 125%;
 text-decoration: none;
-list-style-image: url(pictures/arrow.gif);
 }
 .STY7:hover
 {				/* voor de sitemap dinges dingen en dan is dit weer de hover dinges */
@@ -95,6 +94,43 @@ font-family: sans-serif;
 font-size:15px; 
 line-height: 125%;
 text-decoration: underline;
+}
+.STY8
+{			    /* voor plaatjes enzo */
+background-color:transparent;
+border-color: transparent;
+border-style: none; 
+}
+.STY9
+{			    /* voor geheimen */
+font-family: sans-serif; 
+font-size:15px; 
+color: #FFFFFF; 
+font-style: normal; 
+font-weight:normal;
+cursor: default;
+text-decoration: none;
+}
+.STY10
+{			    /* voor geheimen */
+font-family: sans-serif; 
+font-size:15px; 
+color:#000000; 
+font-style: normal; 
+font-weight:normal;
+cursor: crosshair;
+}
+.STY11
+{				/*voor bovenste grote kop*/
+  margin: 6px;
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 12px;
+  font-weight: normal;
+  line-height: 55px;
+  text-align: left;
+  text-decoration: none;
+  cursor: default;
 }
 .iframe
 {

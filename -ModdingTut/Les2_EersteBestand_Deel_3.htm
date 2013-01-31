@@ -4,7 +4,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<link rel="icon" href="../favicon.ico" />
+	<link rel="shortcut icon" href="../favicon.ico" type="image/x-icon" />
 <link href="../opmaak.css" rel="stylesheet" type="text/css" />
 <link rel="stylesheet" href="../lightbox.css" type="text/css" />
 <script src="../js/jquery-1.7.2.min.js" type="text/javascript"></script>
@@ -13,26 +13,28 @@
 </head>
 <body>
 <div id="Body">
-<div id="BovenText" onclick="location.href='../index.htm';"><img class="middle" src="../pictures/blokje_stil_zwart.jpg" onmouseover="this.src = '../pictures/blokje_zwart.gif';" onmouseout="this.src = '../pictures/blokje_stil_zwart.jpg';" height="60px" width="105x" alt="** PLEASE DESCRIBE THIS IMAGE **" /><a class="STY1" href="../index.htm">McTut</a></div>
-<div id="HeleMenu"><iframe src="../LinksMenu.htm" height="1194px" width="203px" marginwidth="0px" marginheight="0px" frameborder="0"></iframe></div>
+	<div id="BovenText" onclick="location.href='../index.htm';">
+	<img class="middle" src="../pictures/blokje_stil_zwart.jpg" onmouseover="this.src = '../pictures/blokje_zwart.gif';" onmouseout="this.src = '../pictures/blokje_stil_zwart.jpg';" height="60px" width="105px" alt="logo" />
+	<a class="STY1" href="../index.htm">McTut</a><a class="STY11" href="../index.htm">Minecraft Tutorial</a></div>
+	<div id="HeleMenu"><iframe src="../LinksMenu.htm" height="1194px" width="203px" marginwidth="0px" marginheight="0px" frameborder="0"></iframe></div>
 <div id="Home">
 <div id="MenuHome" class="STY2">Blokje</div>
 <p class="STY5">
 	
-	oke, <br />
-	nu gaan we ons eerste blokje toevoegen.<br />
-	Je opent MOD_Main.java in eclipse. daar gaan we nu wat dingen aan toevoegen.
+	OK, <br /><br/>
+	Nu gaan we ons eerste blokje toevoegen.<br />
+	Je opent MOD_Main.java in eclipse. Daar gaan we nu wat dingen aan toevoegen.
 	Op de plek waar "//FML registratie blokken, Item's" staat, plak je daar onder dit:<br />
 	<a href="http://pastebin.com/CDXHMgka" target="_blank">Pastebin Link</a><br />
 	En onder de plek waar "//New Blocks, Item's, recipe's," staat, plak je dit:<br />
 	<a href="http://pastebin.com/fLkT5zVP" target="_blank">Pastebin Link</a><br />
-	Als het kopieren van pastebin niet helemaal werkt, kan je ook onder aan de pagina bij "RAW Paste Data" de code copieeren, dan zitten er geen enter's tussen. <br />
+	Als het kopieren van pastebin niet helemaal werkt, kan je ook onder aan de pagina bij "RAW Paste Data" de code kopieren, dan zitten er geen enter's tussen. <br />
 	Dan ziet je MOD_Main.java er als je het goed hebt gedaan <a href="../pictures/Les2.3_1.JPG" rel="lightbox[Les2.3]" title="MOD_Main.java(1)">zo</a> uit.<br />
-	De plekken die ik geel heb gemaakt moet je nog met wat eigen text invullen. hieronder staat een tabelletje met wat je kan invullen.<br /> <br />
+	De plekken die ik geel heb gemaakt moet je nog met wat eigen text invullen. Hieronder staat een tabelletje met wat je kan invullen.<br /> <br />
 	</p>
 		<table border="1" cellspacing="0" cellpadding="2,5">
 		<tr class="STY6">
-		<td>nu in code</td>
+		<td>in code</td>
 		<td>moet verandert worden in</td>
 		</tr>
 		<tr>
@@ -45,7 +47,7 @@
 		</tr>
 		<tr>
 		<td class="LeftTop">[Block ID]</td>
-		<td class="LeftTop">het Block id van het blokje. je kan <a href="http://www.minecraftforge.net/forum/index.php/topic,638.0.html" target="_blank">Hier</a> zien wele block-id's vrij zijn. ik gebruik nu "3940"</td>
+		<td class="LeftTop">Het Block id van het blokje. je kan <a href="http://www.minecraftforge.net/forum/index.php/topic,638.0.html" target="_blank">Hier</a> zien wele block-id's vrij zijn. ik gebruik nu "3940"</td>
 		</tr>
 		<tr>
 		<td class="LeftTop">[AfbeeldingID]</td>
@@ -65,17 +67,17 @@
 		</tr>
 		</table>
 <p class="STY5">
-	Het leukste is om zelf een beetje uit te proberen wat goed bij jouw blokje past. Als het het bestandje 'common/net.minecraft.src/Block.java' in eclipse opent, zie je van elk vanilla blokje de eigenschappen zoals wij die net hebben ingevoert.<br />
+	Het leukste is om zelf een beetje uit te proberen wat goed bij jouw blokje past. Als het het bestandje 'common/net.minecraft.src/Block.java' in eclipse opent, zie je van elk vanilla blokje de eigenschappen zoals wij die net hebben ingevoerd.<br />
 	Bij mij ziet MOD_Main.java er nu <a href="../pictures/Les2.3_2.JPG" rel="lightbox[Les2.3]" title="MOD_Main.java(2)">zo</a> uit.<br/>
 	Nu moet je een apart .java bestandje maken voor je blokje.<br/>
 	Dat doe je door lang boven 'VanadiumOre' te blijven hangen met je muis. Dan klik je op de optie create class. Dan druk je op finish.<br/>
 	Dan plak je dit in het bestandje VanadiumOre:
 	<a href="http://pastebin.com/Bcsa9CTe" target="_blank">pastebin link</a><br/>
-	nu moet je nattuurlijk we nog effe [Naam] vervangen door de naam die jij hebt gebruikt.<br/>
+	Nu moet je natuurlijk we nog effe [Naam] vervangen door de naam die jij hebt gebruikt.<br/>
 	<br/>
 	Nu is je mod klaar!!<br/>
 	Druk op safe en dan op de start knop, en je kunt minecraft spelen met je eigen toegevoegde blokje!!<br/>
-	Als je nog een blokje wil toevoegen hoef je alleen deze tutorial nog een keer te doen.<br/>
+	Als je nog een blokje wilt toevoegen hoef je alleen maar deze tutorial nog een keer te doen.<br/>
 	De core tutorial hoef je maar 1 keer te doen.
 	
 </p>
